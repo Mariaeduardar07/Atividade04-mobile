@@ -1,7 +1,7 @@
 import { View, Image, Text, StyleSheet, Pressable } from "react-native";
 import { Link } from "expo-router";
 
-export default function Screen() {
+export default function Home() {
   return (
     <View style={styles.container}>
       <Image source={require("../assets/Logo.png")} style={styles.imgLogo} />
