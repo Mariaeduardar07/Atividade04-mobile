@@ -4,6 +4,7 @@
     "slug": "globe-treck",
     "start": "expo start",
     "version": "1.0.0",
+    "scheme": "meuapp",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -24,7 +25,10 @@
     },
     "web": {
       "favicon": "./assets/favicon.png",
-       "bundler": "metro"
-    }
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
