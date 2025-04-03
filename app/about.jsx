@@ -34,9 +34,9 @@ export default function Home() {
         </Pressable>
       </Link>
 
-      <Link href="/about" asChild>
+      <Link href="/" asChild>
         <Pressable style={styles.button}>
-          <Text style={styles.buttonText}>Sobre</Text>
+          <Text style={styles.buttonText}>Home</Text>
         </Pressable>
       </Link>
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   container: {
     alignItems: "center",
     marginTop: 30,
-  },
+ },
   containerIntro: {
     flexDirection: "row",
     alignItems: "center",

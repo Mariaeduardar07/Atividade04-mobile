@@ -46,19 +46,19 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   button: {
-   alignItems: 'center',
-    justifyContent: 'center',
-    backgroundColor: '#79d9f4',
+    alignItems: "center",
+    justifyContent: "center",
+    backgroundColor: "#79d9f4",
     width: 210,
     height: 50,
     borderRadius: 10,
     padding: 10,
     marginTop: 20,
-},
-buttonText: {
-    color: '#0036ad',
-    fontWeight: 'bold',
+  },
+  buttonText: {
+    color: "#0036ad",
+    fontWeight: "bold",
     fontSize: 16,
-    textAlign: 'center'
-}
+    textAlign: "center",
+  },
 });
